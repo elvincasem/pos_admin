@@ -773,6 +773,11 @@ $(document).ready(function() {
                 responsive: true
         });
 		
+		/*$('#dataTables-cash').DataTable({
+                responsive: true,
+				"lengthMenu": [[2, 5, 10, -1], [2, 5, 10, "All"]]
+        });*/
+		
 		//items sort by name
 		$('#dataTables-items').DataTable({
                 responsive: true,
