@@ -27,9 +27,6 @@
 								<li>
 									<a href="submenulist.php" style="color:#000;"><i class="fa fa-list-ul fa-2x"></i>Sub-Menu List</a>
 								</li>
-								<li>
-									<a href="submenu.php" style="color:#000;"><i class="fa fa-list-ul fa-2x"></i>Sub-Menu List</a>
-								</li>
                             </ul>
                             <!-- /.nav-second-level -->
                         </li>

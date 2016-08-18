@@ -103,6 +103,7 @@ include('header.php');
                                         <button class="btn btn-primary" type="button">GO</button>
                                     </span>
                                 </div>
+								<br>
 							<table class="table table-striped table-bordered table-hover" id="dataTables-example">
                                     <thead>
                                         <tr>
@@ -121,6 +122,7 @@ include('header.php');
                                         </tr>
                                     </tbody>
                             </table>
+								<br>
 								<center><label><h4>Total Transactions: 3</h4></label></center>
 								<center><label><h4>Total Amount: 3</h4></label></center>
 							</div>
@@ -129,7 +131,7 @@ include('header.php');
 							</div>
 							<div class="modal-footer">
 								<button type="button" class="btn btn-default simplemodal-close" data-dismiss="modal">Close</button>
-								<button id="saveuser" type="button" class="btn btn-primary">Print and Close</button>
+								<a href="reportct.php" class="btn btn-primary">Print and Close</a>
 							</div>
 						</div>
 						<!-- /.modal-content -->
@@ -247,7 +249,7 @@ include('header.php');
 											<center><h4>Cash</h4></center>
 											<hr>
 											<p><label>Total: 0</label>
-											<span class="pull-right"><a href="ctreport.php" class="btn btn-default">Print</a></span></p>
+											<span class="pull-right"><a href="reportss.php" class="btn btn-default">Print</a></span></p>
 										</div>
 										<div class="panel-body">
 											<table class="table table-hover" id="dataTables-cash">
@@ -268,12 +270,7 @@ include('header.php');
 													</tr>
 												</tbody>
 											</table>
-											
 										</div>
-										<!--<div class="panel-footer">
-											Total: 0
-											<span class="pull-right"><button type="button" class="btn btn-primary">Print</button></span>
-										</div>-->
 									</div>
 								</div>
 								
@@ -282,7 +279,8 @@ include('header.php');
 										<div class="panel-heading">
 											<center><h4>Credit</h4></center>
 											<hr>
-											<p><label>Total: 0</label><span class="pull-right"><button type="button" class="btn btn-default">Print</button></span></p>
+											<p><label>Total: 0</label>
+											<span class="pull-right"><a href="reportss.php" class="btn btn-default">Print</a></span></p>
 										</div>
 										<div class="panel-body">
 											<table class="table table-hover" id="dataTables-example">
@@ -312,7 +310,8 @@ include('header.php');
 										<div class="panel-heading">
 											<center><h4>Charges</h4></center>
 											<hr>
-											<p><label>Total: 0</label><span class="pull-right"><button type="button" class="btn btn-default">Print</button></span></p>
+											<p><label>Total: 0</label>
+											<span class="pull-right"><a href="reportss.php" class="btn btn-default">Print</a></span></p>
 										</div>
 										<div class="panel-body">
 											<div class="table-responsive">
@@ -492,7 +491,7 @@ include('header.php');
 											
 											<div class="col-lg-12">
 												<center>
-													<button id="" type="button" class="btn btn-primary">OK</button>
+													<a href="reportor.php" class="btn btn-primary">OK</a>
 												</center>
 											</div>
 											
@@ -536,7 +535,7 @@ include('header.php');
 											
 											<div class="col-lg-12">
 												<center>
-													<button id="" type="button" class="btn btn-primary">OK</button>
+													<a href="reportor.php" class="btn btn-primary">OK</a>
 												</center>
 											</div>
 											
@@ -567,7 +566,7 @@ include('header.php');
 											
 											<div class="col-lg-12">
 												<center>
-													<button id="" type="button" class="btn btn-primary">OK</button>
+													<a href="reportor.php" class="btn btn-primary">OK</a>
 												</center>
 											</div>
                                         </div>
@@ -596,7 +595,7 @@ include('header.php');
 											
 											<div class="col-lg-12">
 												<center>
-													<button id="" type="button" class="btn btn-primary">OK</button>
+													<a href="reportor.php" class="btn btn-primary">OK</a>
 												</center>
 											</div>
                                         </div>
@@ -625,7 +624,7 @@ include('header.php');
 											
 											<div class="col-lg-12">
 												<center>
-													<button id="" type="button" class="btn btn-primary">OK</button>
+													<a href="reportor.php" class="btn btn-primary">OK</a>
 												</center>
 											</div>
                                         </div>
@@ -654,7 +653,7 @@ include('header.php');
 											
 											<div class="col-lg-12">
 												<center>
-													<button id="" type="button" class="btn btn-primary">OK</button>
+													<a href="reportor.php" class="btn btn-primary">OK</a>
 												</center>
 											</div>
                                         </div>
